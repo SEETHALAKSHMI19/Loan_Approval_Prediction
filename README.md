@@ -1,6 +1,7 @@
-# Loan Approval Prediction
+# Bank Loan Approval Prediction using Machine Learning
 
-This project predicts whether a loan application will be approved or rejected using Machine Learning.
+## Objective
+This project focuses on analyzing the factors affecting loan approval and predicting whether a loan application will be approved or rejected using the Random Forest Classifier.
 
 ## Algorithm Used
 Random Forest Classifier
@@ -19,10 +20,18 @@ Random Forest Classifier
 - CIBIL Score
 - Education
 - Self Employment Status
-- Asset Values
+- Residential Assets
+- Commercial Assets
+- Luxury Assets
+- Bank Assets
 
 ## Model Accuracy
 97.78%
 
+## Visualizations
+- Loan Status Count Plot
+- CIBIL Score vs Loan Status Box Plot
+- Feature Importance Analysis
+
 ## Conclusion
-The model successfully predicts loan approval status with high accuracy.
+The Random Forest model achieved an accuracy of 97.78% and successfully predicts loan approval status based on applicant financial and asset-related information.
